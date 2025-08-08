@@ -4,6 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the EternalQuest Project.");
+        //Added level up ability in Goal Manager class
+        GoalManager manager = new GoalManager();
+        manager.Start();
     }
 }
